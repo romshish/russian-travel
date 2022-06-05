@@ -1,0 +1,19 @@
+
+.intro {
+  color: #fff;
+  padding: 92px 48px 0;
+  max-width: 984px;
+  margin: 0 auto 0;
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro {
+    padding: 64px 16px 0;
+  }
+}

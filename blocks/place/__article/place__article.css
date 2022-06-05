@@ -1,0 +1,4 @@
+.place__article {
+  max-width: 484px;
+  grid-area: article;
+}

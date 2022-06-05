@@ -1,0 +1,30 @@
+.photo-grid {
+  margin: 0 auto 0;
+  max-width: 1184px;
+  padding: 92px 48px 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(273px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1025px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .photo-grid {
+    padding: 88px 24px 15px;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .photo-grid {
+    padding: 64px 16px 14px;
+    gap: 12px;
+  }
+}
